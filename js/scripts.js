@@ -19,6 +19,8 @@ function akanName(event){
 
     let dayOfWeek = dateOfBirth.getDay();
     console.log(dayOfWeek)
+
+    let days = ["Sunday","Monday", "Tuesday", "Wednesday","Thurday","Friday","Saturday"];
     
     event.preventDefault();
 }
