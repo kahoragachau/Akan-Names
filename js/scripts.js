@@ -21,6 +21,6 @@ function akanName(event){
     console.log(dayOfWeek)
 
     let days = ["Sunday","Monday", "Tuesday", "Wednesday","Thurday","Friday","Saturday"];
-    
+    let maleNames = ["Kwasi", "Kwadwo", "Kwabena","Kwaku", "Yaw","Kofi","Kwame"];
     event.preventDefault();
 }
