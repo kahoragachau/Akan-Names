@@ -35,3 +35,7 @@ form{
     padding: 50px;
     margin-left: 100px;
 }
+.error-message,#error-message-1,#error-message-2{
+    visibility: hidden;
+    color: red;
+}
