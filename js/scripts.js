@@ -20,6 +20,11 @@ function akanName(event){
     let dayOfWeek = dateOfBirth.getDay();
     console.log(dayOfWeek)
 
+    let gender = document.getElementsByName('gender');
+    // for(let i = 0; i<gender.length; i++){
+    //     console.log(gender[i].checked)
+    // }
+
     let days = ["Sunday","Monday", "Tuesday", "Wednesday","Thurday","Friday","Saturday"];
     let maleNames = ["Kwasi", "Kwadwo", "Kwabena","Kwaku", "Yaw","Kofi","Kwame"];
     let femaleNames = ["Akosua", "Adwoa", "Abenaa","Akua","Yaa","Afua","Ama"];
