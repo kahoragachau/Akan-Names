@@ -1,0 +1,38 @@
+.container{
+    background-color: #A47551;
+    padding: 50px;
+}
+
+.header-one{
+    color: #D0B49F;
+    font-size: 36px;
+    text-align: center;
+}
+
+.akan-names-description{
+    border: 2px solid red;
+    width: 500px;
+    padding: 25px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.gender-names{
+    display: flex;
+    border: 2px solid pink;
+    padding: 25px;
+    margin-left: 100px;
+}
+
+.male-names{
+    list-style-type: none;
+}
+.female-names{
+    list-style-type: none;
+}
+form{
+    border: 2px solid black;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
