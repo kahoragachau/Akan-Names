@@ -1,6 +1,5 @@
 .container{
     background-color: #A47551;
-    padding: 50px;
 }
 
 .header-one{
@@ -9,17 +8,19 @@
     text-align: center;
 }
 
-.akan-names-description{
-    border: 2px solid red;
-    width: 500px;
-    padding: 25px;
-    margin-left: 100px;
+.flex-container{
+    display: flex;
     font-size: 20px;
+}
+
+.akan-names-description{
+    width: 500px;
+    padding: 20px;
 }
 
 .gender-names{
     display: flex;
-    border: 2px solid pink;
+    width: 500px;
     padding: 25px;
     margin-left: 100px;
 }
@@ -31,8 +32,6 @@
     list-style-type: none;
 }
 form{
-    border: 2px solid black;
     padding: 50px;
-    margin-top: 50px;
     margin-left: 100px;
 }
