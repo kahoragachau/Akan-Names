@@ -3,24 +3,24 @@ submitBtn.addEventListener("click", akanName);
 
 function akanName(event){
     let dd = document.getElementById('birthDate').value;
-    if(dd === ""){
-        alert("Date input cant be empty");
+    if(dd == ""){
+        document.getElementById("error-message-1").innerHTML = "<span style='color:red'>Date Input Can't Be Empty</span>";
     }
     if(dd > 31 || dd <= 0){
-        alert("Enter a Valid Date!!");
+        document.getElementById("error-message-2").innerHTML = "<span style='color:red'>Enter a number between 1 to 31</span>";
     }
 
     let mm = document.getElementById('monthDate').value;
     if(mm === ""){
-        alert("Month Input Can't be empty")
+        document.getElementById("error-message-3").innerHTML = "<span style='color:red'>Month Input Can't Be Empty</span>";
     }
     if(mm > 12 || mm <=0 ){
-        alert("Enter a Valid Month!!")
+        document.getElementById("error-message-4").innerHTML = "<span style='color:red'>Enter Month Between 1 to 12</span>";
     }
 
     let year = document.getElementById('year').value;
     if(year === ""){
-        alert("Year Input Can't be empty")
+        document.getElementById("error-message-5").innerHTML = "<span style='color:red'>Year Input Can't Be Empty</span>";
     }
 
     
@@ -37,11 +37,9 @@ function akanName(event){
         if(gender[i].checked){
             if(gender[i].id === "male-radio"){
                 alert("Your Born on a " + days[dayOfWeek] + " Your Akan Name is " + maleNames[dayOfWeek])
-                console.log("Your Born on a " + days[dayOfWeek] + " Your Akan Name is " + maleNames[dayOfWeek])
             }
             if(gender[i].id === "female-radio"){
                 alert("You Were Born on a " + days[dayOfWeek] + " Your Akan Name is " + femaleNames[dayOfWeek])
-                console.log("You Were Born on a " + days[dayOfWeek] + " Your Akan Name is " + femaleNames[dayOfWeek])
             }
         }
     }

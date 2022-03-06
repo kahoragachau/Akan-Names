@@ -25,17 +25,10 @@
     margin-left: 100px;
 }
 
-.male-names{
-    list-style-type: none;
-}
-.female-names{
+.male-names,.female-names{
     list-style-type: none;
 }
 form{
     padding: 50px;
     margin-left: 100px;
-}
-.error-message,#error-message-1,#error-message-2{
-    visibility: hidden;
-    color: red;
 }
