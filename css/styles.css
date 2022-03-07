@@ -1,16 +1,21 @@
-.container{
-    background-color: #A47551;
+.form-container{
+    background-color: darkgreen;
+    font-size: 14px;
 }
 
 .header-one{
     color: #D0B49F;
     font-size: 36px;
     text-align: center;
+    background-color: red;
+    height: 15vh;
+    margin-bottom: 0;
 }
 
 .flex-container{
     display: flex;
     font-size: 20px;
+    background-color: yellow;
 }
 
 .akan-names-description{
@@ -30,5 +35,5 @@
 }
 form{
     padding: 50px;
-    margin-left: 100px;
+    color: #fff;
 }
