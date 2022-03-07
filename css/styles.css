@@ -1,5 +1,5 @@
 .form-container{
-    background-color: darkgreen;
+    background-color: #006B3D;
     font-size: 14px;
 }
 
@@ -7,7 +7,7 @@
     color: #D0B49F;
     font-size: 36px;
     text-align: center;
-    background-color: red;
+    background-color: #CF0921;
     height: 15vh;
     margin-bottom: 0;
 }
@@ -15,7 +15,7 @@
 .flex-container{
     display: flex;
     font-size: 20px;
-    background-color: yellow;
+    background-color: #FCD20F;
 }
 
 .akan-names-description{
