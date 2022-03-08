@@ -37,10 +37,10 @@ function akanName(event){
     for(let i = 0; i<gender.length; i++){
         if(gender[i].checked && (dd !== "" && !(dd > 31 || dd <= 0))&& (mm !== "" && !(mm > 12 || mm <=0)) && year!== ""){
             if(gender[i].id === "male-radio"){
-                alert("Your Born on a " + days[dayOfWeek] + " Your Akan Name is " + maleNames[dayOfWeek])
+                document.getElementById('akan-name-output').innerHTML = "You were Born on a " + days[dayOfWeek] + " and Your Akan Name is " + maleNames[dayOfWeek];
             }
             if(gender[i].id === "female-radio"){
-                alert("You Were Born on a " + days[dayOfWeek] + " Your Akan Name is " + femaleNames[dayOfWeek])
+                document.getElementById('akan-name-output').innerHTML = "You Were Born on a " + days[dayOfWeek] + " Your Akan Name is " + femaleNames[dayOfWeek];
             }
         }
     }

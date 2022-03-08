@@ -30,6 +30,10 @@
 .male-names,.female-names{
     list-style-type: none;
 }
+#akan-name-output{
+    color: #fff;
+    font-size: 24px;
+}
 form{
     padding: 50px;
     color: #fff;
